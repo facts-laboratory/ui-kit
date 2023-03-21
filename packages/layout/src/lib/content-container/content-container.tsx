@@ -11,7 +11,7 @@ export function StandardContentContainer(props: StandardContentContainerProps) {
       style={{ minWidth: 350 }}
       className="w-full flex flex-col items-start relative grow"
     >
-      <div className="container mx-auto">{children}</div>
+      {children}
     </section>
   );
 }
