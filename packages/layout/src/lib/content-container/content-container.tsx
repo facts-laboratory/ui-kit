@@ -2,10 +2,12 @@ import { ReactNode } from 'react';
 /* eslint-disable-next-line */
 export interface StandardContentContainerProps {
   children: ReactNode;
+  container?: boolean;
 }
 
 export function StandardContentContainer(props: StandardContentContainerProps) {
-  const { children } = props;
+  const { children, container } = props;
+  if (container) return <div className="container mx-auto">{children}</div>;
   return (
     <section
       style={{ minWidth: 350 }}
