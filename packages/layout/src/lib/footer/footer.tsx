@@ -10,7 +10,6 @@ export function StandardFooter(props: StandardFooterProps) {
   return (
     <footer className="bg-primary w-full relative">
       <div className="container mx-auto py-4">{children}</div>
-
     </footer>
   );
 }
