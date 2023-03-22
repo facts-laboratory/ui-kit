@@ -1,9 +1,13 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "emitDecoratorMetadata": true,
     "outDir": ""
   },
-  "files": [],
+  "files": [
+    "../../../node_modules/@nrwl/react/typings/styled-jsx.d.ts",
+    "../../../node_modules/@nrwl/react/typings/cssmodule.d.ts",
+    "../../../node_modules/@nrwl/react/typings/image.d.ts"
+  ],
   "exclude": [
     "../**/*.spec.ts",
     "../**/*.spec.js",
@@ -17,10 +21,5 @@
     "../src/**/*.stories.tsx",
     "../src/**/*.stories.mdx",
     "*.js"
-  ],
-  "ts-node": {
-    "compilerOptions": {
-      "module": "commonjs"
-    }
-  }
+  ]
 }

@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@el-cap/assets": ["packages/assets/src/index.ts"],
       "@facts-kit/ui-kit": ["packages/layout/src/index.ts"]
     }
   },
