@@ -6,7 +6,7 @@ import dts from 'vite-plugin-dts';
 import { join } from 'path';
 
 export default defineConfig({
-  cacheDir: '../../node_modules/.vite/layout',
+  cacheDir: '../../node_modules/.vite/ui-kit',
 
   plugins: [
     dts({

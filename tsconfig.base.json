@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@el-cap/assets": ["packages/assets/src/index.ts"],
-      "@facts-kit/ui-kit": ["packages/layout/src/index.ts"]
+      "@facts-kit/ui-kit": ["packages/ui-kit/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

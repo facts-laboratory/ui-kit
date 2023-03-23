@@ -1,7 +1,7 @@
 {
   "name": "layout",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/layout/src",
+  "sourceRoot": "packages/ui-kit/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,7 +9,7 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/layout/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["packages/ui-kit/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "build": {
@@ -17,7 +17,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/packages/layout"
+        "outputPath": "dist/packages/ui-kit"
       },
       "configurations": {
         "development": {
@@ -30,17 +30,17 @@
     },
     "test": {
       "executor": "@nrwl/vite:test",
-      "outputs": ["coverage/packages/layout"],
+      "outputs": ["coverage/packages/ui-kit"],
       "options": {
         "passWithNoTests": true,
-        "reportsDirectory": "../../coverage/packages/layout"
+        "reportsDirectory": "../../coverage/packages/ui-kit"
       }
     },
     "storybook": {
       "executor": "@nrwl/storybook:storybook",
       "options": {
         "port": 4400,
-        "configDir": "packages/layout/.storybook",
+        "configDir": "packages/ui-kit/.storybook",
         "uiFramework": "@storybook/react"
       },
       "configurations": {
@@ -53,8 +53,8 @@
       "executor": "@nrwl/storybook:build",
       "outputs": ["{options.outputDir}"],
       "options": {
-        "outputDir": "dist/storybook/layout",
-        "configDir": "packages/layout/.storybook",
+        "outputDir": "dist/storybook/ui-kit",
+        "configDir": "packages/ui-kit/.storybook",
         "uiFramework": "@storybook/react"
       },
       "configurations": {
