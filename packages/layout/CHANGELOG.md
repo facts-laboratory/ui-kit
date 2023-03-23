@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.1](https://github.com/permafacts/ui-kit/compare/layout-0.2.0...layout-0.2.1) (2023-03-23)
+
 ## [0.2.0](https://github.com/permafacts/ui-kit/compare/layout-0.1.2...layout-0.2.0) (2023-03-22)
 
 ### [0.1.2](https://github.com/permafacts/ui-kit/compare/layout-0.1.1...layout-0.1.2) (2023-03-21)
