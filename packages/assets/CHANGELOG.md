@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.0](https://github.com/permafacts/ui-kit/compare/assets-0.0.1...assets-0.1.0) (2023-03-23)
+
+
+### Bug Fixes
+
+* the layout directory should be ui-kit ([273cc35](https://github.com/permafacts/ui-kit/commit/273cc3577f387272f77c93d985f801064299050b))
+
 ### 0.0.1 (2023-03-23)
 
 
