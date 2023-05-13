@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.3.1](https://github.com/permafacts/ui-kit/compare/layout-0.3.0...layout-0.3.1) (2023-05-13)
+
+
+### Bug Fixes
+
+* remove min width ([4786601](https://github.com/permafacts/ui-kit/commit/478660192f068b16d8fb56b6795332c4f5b950b9))
+
 ## [0.3.0](https://github.com/permafacts/ui-kit/compare/layout-0.2.1...layout-0.3.0) (2023-03-23)
 
 
